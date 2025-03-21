@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #ffffff;
+    --foreground: #222222;
+    --border: #e2e8f0;
+    --primary: #2c3e50;
+    --secondary: #bdc3c7;
+    --accent: #3498db;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: #121212;
+    --foreground: #e2e8f0;
+    --border: #333;
+    --primary: #ffffff;
+    --secondary: #aaaaaa;
+    --accent: #1e90ff;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer utilities {
+  .border-border {
+    border-color: var(--border);
+  }
+}

@@ -1,0 +1,27 @@
+Name: John Doe
+Email: johndoe@example.com
+Phone: +1 123-456-7890
+
+Summary:
+A motivated and detail-oriented professional with experience in software development and data analysis. Skilled in Python, JavaScript, and SQL.
+
+Education:
+- Bachelor of Science in Computer Science, XYZ University, 2018-2022
+
+Skills:
+- Programming: Python, JavaScript, SQL
+- Tools: Git, Docker, VS Code
+- Frameworks: React, Node.js
+
+Experience:
+- Software Developer, ABC Company, 2022-Present
+  - Developed and maintained web applications using React and Node.js.
+  - Collaborated with cross-functional teams to deliver projects on time.
+
+Projects:
+- Resume Parser: Built a tool to extract and analyze resume data using Python and NLP.
+- Task Manager: Created a task management app using React and Firebase.
+
+Certifications:
+- Certified Python Developer, 2021
+- AWS Certified Developer, 2022
